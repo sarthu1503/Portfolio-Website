@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sarthak - Developer Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(36, 35, 35);
+            color: white;
+            /* justify-content: end; 
+            display: flex; */
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(25, 45, 52);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(170, 107, 228);
+            font-size: 1.01rem;
+        }
+
+        main hr {
+            border: 0;
+            background: #9c97f1;
+            height: 1.2px;
+            margin: 60px 0;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 130px 0;
+        }
+
+        .firstSection div {
+            width: 70%;
+        }
+
+        .leftSection {
+            font-size: 2.5rem;
+            margin: 70px;
+        }
+
+        .leftSection .experience {
+            font-size: 1rem;
+        }
+
+        .leftSection .button {
+            padding: 50px 0;
+        }
+
+        .leftSection .btn {
+            padding: 2px;
+            background-color: rgb(36, 35, 35);
+            color: white;
+            border: 2px solid white;
+            border-radius: 6px;
+            font-size: 15px;
+            cursor: pointer;
+        }
+
+        .leftSection .btn:hover {
+            color: rgb(170, 107, 228);
+            font-family: sans-serif;
+        }
+        .rightSection img {
+            width: 70%;
+        }
+
+        .purple {
+            color: rgb(170, 107, 228);
+        }
+
+        .text-gray {
+            color: gray;
+        }
+
+        .secondSection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .secondSection h1 {
+            font-size: 1.9rem;
+        }
+
+        .secondSection .box {
+            background: white;
+            width: 90vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+
+        .secondSection .vertical {
+            height: 75px;
+            width: 1px;
+            background-color: white;
+            margin: 0 95px;
+        }
+
+        #element {
+            color: rgb(170, 107, 228);
+
+        }
+
+        .image-top {
+            width: 23px;
+            position: relative;
+            top: -32px;
+            left: -9px;
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 52px;
+            width: 150px;
+            font-size: 14px;
+        }
+
+        .vertical-desc {
+            position: relative;
+            color: gray;
+            font-size: 9px;
+            top: 60px;
+            width: 160px;
+        }
+
+        footer {
+            background-color: rgb(32, 46, 50);
+            /* height: 233px; */
+        }
+
+        .footer {
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+        }
+
+        .footer ul {
+            list-style: none;
+        }
+
+        .footer>div {
+            width: 223px;
+        }
+
+        footer .footer-rights {
+            text-align: center;
+            color: gray;
+            padding: 12px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Sarthak's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, My name is <span class="purple">Sarthak</span>
+                <div>and I am a passionate</div>
+                <span id="element"></span>
+                <div class="experience">
+                    I'm A Web Developer having 3 years of experience in expertise of
+                    creating website with fully responsive Also with backend part too.</div>
+                <div class="buttons">
+                    <button class="btn">Download Resume</button>
+                    <button class="btn">Visit Github</button>
+                    <button class="btn"> Hire Me</button>
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="htmldev.png" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class="secondSection">
+            <span class="text-gray">what I have done far</span>
+            <h1>Work Experience</h1>
+
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="developer.png" alt="">
+                    <div class="vertical-title">
+                        HTML Developer (2012-2014)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat voluptate laborum neque,
+                        perspiciatis officiis iusto. Ab nobis omnis, pariatur ex impedit laboriosam eligendi!
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="nodejs.png" alt="">
+                    <div class="vertical-title">
+                        Node.js Developer (2014-2016)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat voluptate laborum neque,
+                        perspiciatis officiis iusto. Ab nobis omnis, pariatur ex impedit laboriosam eligendi!
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="youtube.png" alt="">
+                    <div class="vertical-title">
+                        Software Developer - Youtube (2016-2018)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat voluptate laborum neque,
+                        perspiciatis officiis iusto. Ab nobis omnis, pariatur ex impedit laboriosam eligendi!
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="insta.png" alt="">
+                    <div class="vertical-title">
+                        work at instagram (2018-2020)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat voluptate laborum neque,
+                        perspiciatis officiis iusto. Ab nobis omnis, pariatur ex impedit laboriosam eligendi!
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="facebook.png" alt="">
+                    <div class="vertical-title">
+                        Software Developer - facebook (2020-2022)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat voluptate laborum neque,
+                        perspiciatis officiis iusto. Ab nobis omnis, pariatur ex impedit laboriosam eligendi!
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="twitter.png" alt="">
+                    <div class="vertical-title">
+                        Working on twitter (2022-2024)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat voluptate laborum neque,
+                        perspiciatis officiis iusto. Ab nobis omnis, pariatur ex impedit laboriosam eligendi!
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Sarthak's Developer Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-rights">
+            Copyright &#169; www.sarthaksportfolio.com | All rights reserved
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Graphics Designer', 'Web Designer', 'Video Editor'],
+            typeSpeed: 60,
+        });
+    </script>
+</body>
+
+</html>
